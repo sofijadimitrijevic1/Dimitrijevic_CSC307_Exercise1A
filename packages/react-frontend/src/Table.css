@@ -1,0 +1,22 @@
+.extreme-button {
+  animation: extreme-animation 4s infinite;
+}
+
+@keyframes extreme-animation {
+  0% {
+    background-color: red;
+  }
+  33% {
+    background-color: navy;
+  }
+  66% {
+    background-color: greenyellow;
+    transform: rotate(360deg);
+  }
+  90% {
+    background-color: blueviolet;
+  }
+  100% {
+    background-color: red;
+  }
+}
